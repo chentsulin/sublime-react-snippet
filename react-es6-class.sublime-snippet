@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react'
+
+
+export default class ${1:className} extends React.Component {
+
+  static getProps() {
+    return {}
+  }
+
+  render() {
+    return (
+      ${0:<div></div>}
+    )
+  }
+
+}
+
+]]></content>
+    <tabTrigger>r6c</tabTrigger>
+    <scope>source.js</scope>
+    <description>react es6 class</description>
+</snippet>
