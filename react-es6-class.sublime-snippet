@@ -1,16 +1,43 @@
 <snippet>
     <content><![CDATA[
-import React from 'react'
+import React from 'react';
 
 
 class ${1:className} extends React.Component {
   
-  static defaultProps = {}
+  static propTypes = {
+    ${2:prop}: React.PropTypes.func.isRequired
+  };
+  
+  static defaultProps = {};
+  
+  constructor(props) {
+    super(props)
+    this.state = {
+    
+    };
+  }
+  
+  componentWillMount() {
+  
+  }
+  
+  componentDidMount() {
+  
+  }
+  
+  componentWillReceiveProps() {
+  
+  }
+  
+  componentWillUnmount() {
+  
+  }
   
   render() {
     return (
       ${0:<div></div>}
-    )
+    );
   }
 
 }
