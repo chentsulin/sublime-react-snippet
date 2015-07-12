@@ -3,12 +3,10 @@
 import React from 'react'
 
 
-export default class ${1:className} extends React.Component {
-
-  static getProps() {
-    return {}
-  }
-
+class ${1:className} extends React.Component {
+  
+  static defaultProps = {}
+  
   render() {
     return (
       ${0:<div></div>}
@@ -16,6 +14,8 @@ export default class ${1:className} extends React.Component {
   }
 
 }
+
+export default ${className}
 
 ]]></content>
     <tabTrigger>r6c</tabTrigger>
