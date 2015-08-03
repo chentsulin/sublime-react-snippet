@@ -42,6 +42,7 @@ class ${1:className} extends Component {
 
 }
 
+
 export default ${className};
 
 ]]></content>
