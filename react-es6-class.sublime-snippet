@@ -36,7 +36,7 @@ class ${1:className} extends Component {
   
   render() {
     return (
-      ${0:<div></div>}
+      ${0:<div>{this.props.children}</div>}
     );
   }
 
