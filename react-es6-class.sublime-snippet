@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 
 
-class ${1:className} extends React.Component {
+class ${1:className} extends Component {
   
   static propTypes = {
-    ${2:prop}: React.PropTypes.func.isRequired
+    ${2:prop}: PropTypes.func.isRequired
   };
   
   static defaultProps = {};
