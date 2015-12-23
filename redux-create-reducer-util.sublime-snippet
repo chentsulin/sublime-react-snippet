@@ -11,7 +11,7 @@ export default function createReducer(initialState, handlers) {
 }
 
 ]]></content>
-	<tabTrigger>rcu</tabTrigger>
+	<tabTrigger>rcru</tabTrigger>
 	<scope>source.js</scope>
 	<description>redux createReducer util</description>
 </snippet>
