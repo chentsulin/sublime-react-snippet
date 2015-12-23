@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+import createReducer from '../utils/createReducer';
+import ActionTypes from '../ActionTypes';
+
+const initialState = ${2:InitialState};
+
+const ${1:reducerName} = createReducer(initialState, {
+  [ActionTypes.${3:ACTION_NAME}](state, action) {
+    return {
+      ...state,
+      ${4:someOthers}
+    }
+  }
+});
+
+export default ${reducerName};
+
+]]></content>
+  <tabTrigger>rcrd</tabTrigger>
+  <scope>source.js</scope>
+  <description>redux createReducer</description>
+</snippet>

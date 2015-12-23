@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+import React, { createClass, PropTypes } from 'react';
+
+
+const ${1:className} = createClass({
+	propTypes: {
+		${2:prop}: PropTypes.func.isRequired
+	},
+
+	getInitialState() {
+		return {
+
+		};
+	},
+
+	componentWillMount() {
+
+	},
+
+	componentDidMount() {
+
+	},
+
+	componentWillReceiveProps() {
+
+	},
+
+	componentWillUnmount() {
+
+	},
+
+	render() {
+		return (
+			${0:<div>{this.props.children}</div>}
+		);
+	}
+});
+
+
+export default ${className};
+
+]]></content>
+	<tabTrigger>rccl</tabTrigger>
+	<scope>source.js</scope>
+	<description>react createClass class with lifecycle</description>
+</snippet>

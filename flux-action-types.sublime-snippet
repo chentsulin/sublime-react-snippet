@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+import create from 'create-action-types';
+
+
+export default create([
+  '${1:ACTION_NAME}',
+]);
+
+]]></content>
+  <tabTrigger>fat</tabTrigger>
+  <scope>source.js</scope>
+  <description>flux action types</description>
+</snippet>

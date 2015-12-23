@@ -1,3 +1,3 @@
 # Sublime React Snippet
 
-> WIP
+> A collection of sublime snippet for personal usage.

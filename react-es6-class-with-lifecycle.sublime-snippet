@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+import React, { Component, PropTypes } from 'react';
+
+
+class ${1:className} extends Component {
+	static propTypes = {
+		${2:prop}: PropTypes.func.isRequired
+	};
+
+	static defaultProps = {};
+
+	constructor(props, context) {
+		super(props, context)
+		this.state = {
+
+		};
+	}
+
+	componentWillMount() {
+
+	}
+
+	componentDidMount() {
+
+	}
+
+	componentWillReceiveProps() {
+
+	}
+
+	componentWillUnmount() {
+
+	}
+
+	render() {
+		return (
+			${0:<div>{this.props.children}</div>}
+		);
+	}
+}
+
+
+export default ${className};
+
+]]></content>
+	<tabTrigger>r6cl</tabTrigger>
+	<scope>source.js</scope>
+	<description>react es6 class with lifecycle</description>
+</snippet>

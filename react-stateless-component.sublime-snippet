@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+import React, { PropTypes } from 'react';
+
+
+const ${1:ComponentName} = ({ children }) =>
+	${0:<div>{children}</div>}
+
+${ComponentName}.propTypes = {
+  ${2:prop}: PropTypes.func.isRequired
+};
+
+${ComponentName}.defaultProps = {};
+
+
+export default ${ComponentName};
+
+]]></content>
+	<tabTrigger>rslc</tabTrigger>
+	<scope>source.js</scope>
+	<description>react stateless component</description>
+</snippet>

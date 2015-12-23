@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+export default function createReducer(initialState, handlers) {
+  return function reducer(state = initialState, action) {
+    if (handlers.hasOwnProperty(action.type)) {
+      return handlers[action.type](state, action);
+    } else {
+      return state;
+    }
+  }
+}
+
+]]></content>
+	<tabTrigger>rcu</tabTrigger>
+	<scope>source.js</scope>
+	<description>redux createReducer util</description>
+</snippet>

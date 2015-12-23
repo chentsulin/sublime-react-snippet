@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import ActionTypes from '../ActionTypes';
+
+
+export const ${1:actionCreatorName} = function() {
+  return {
+    type: ActionTypes.${2:ACTION_NAME},
+    payload: {
+
+    }
+  };
+};
+
+export const ${3:actionCreator2Name} = function() {
+  return (dispatch) => {
+    dispatch(${actionCreatorName}());
+  }
+};
+
+]]></content>
+  <tabTrigger>rac</tabTrigger>
+  <scope>source.js</scope>
+  <description>redux action creators</description>
+</snippet>

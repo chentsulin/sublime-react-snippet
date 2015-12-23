@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+import React, { createClass, PropTypes } from 'react';
+
+
+const ${1:className} = createClass({
+	propTypes: {
+		${2:prop}: PropTypes.func.isRequired
+	},
+
+	render() {
+		return (
+			${0:<div>{this.props.children}</div>}
+		);
+	}
+});
+
+
+export default ${className};
+
+]]></content>
+	<tabTrigger>rcc</tabTrigger>
+	<scope>source.js</scope>
+	<description>react createClass class</description>
+</snippet>

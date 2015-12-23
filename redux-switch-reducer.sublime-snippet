@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import ActionTypes from '../ActionTypes';
+
+const initialState = ${2:InitialState};
+
+const ${1:reducerName} = function(state = initialState, action) {
+  switch (action.type) {
+    case ActionTypes.${3:ACTION_NAME}:
+      return {
+      ...state,
+      ${4:someOthers}
+    }
+    default:
+      return state;
+  }
+};
+
+export default ${reducerName};
+
+]]></content>
+  <tabTrigger>rsrd</tabTrigger>
+  <scope>source.js</scope>
+  <description>redux switch reducer</description>
+</snippet>

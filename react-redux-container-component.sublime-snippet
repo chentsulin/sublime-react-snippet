@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import ${1:className} from './components/${className}';
+
+
+function mapStateToProps(state) {
+	return {
+
+	};
+}
+
+function mapDispatchToProps(dispatch) {
+	return {
+
+	};
+}
+
+
+export default connect(
+	mapStateToProps,
+	mapDispatchToProps
+)(${className});
+
+]]></content>
+	<tabTrigger>rrcc</tabTrigger>
+	<scope>source.js</scope>
+	<description>react redux container component</description>
+</snippet>
