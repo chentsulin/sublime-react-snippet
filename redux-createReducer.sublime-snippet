@@ -17,7 +17,7 @@ const ${1:reducerName} = createReducer(initialState, {
 export default ${reducerName};
 
 ]]></content>
-  <tabTrigger>rcrd</tabTrigger>
+  <tabTrigger>rdcr</tabTrigger>
   <scope>source.js</scope>
   <description>redux createReducer</description>
 </snippet>

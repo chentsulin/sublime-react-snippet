@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import { Route, IndexRoute } from 'react-router';
+import App from './containers/App';
+import Home from './containers/Home';
+import AboutUs from './containers/AboutUs';
+import ${1:ResourceList} from './containers/${ResourceList}';
+import ${2:SingleResource} from './containers/${SingleResource}';
+import NotFound from './containers/NotFound';
+
+
+export default (
+  <Route path="/" component={App}>
+    <IndexRoute component={Home} />
+    <Route path="/about-us" component={AboutUs} />
+    <Route path="/${3:resources}">
+      <IndexRoute component={${ResourceList}} />
+      <Route path=":postId" component={${SingleResource}} />
+    </Route>
+    <Route path="*" component={NotFound} />
+  </Route>
+);
+
+]]></content>
+  <tabTrigger>rrr</tabTrigger>
+  <scope>source.js</scope>
+  <description>react router routes</description>
+</snippet>
