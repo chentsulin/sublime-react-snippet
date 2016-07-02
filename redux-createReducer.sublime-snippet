@@ -14,7 +14,7 @@ const ${1:reducerName} = createReducer(initialState, {
   }
 });
 
-export default ${reducerName};
+export default ${1:reducerName};
 
 ]]></content>
   <tabTrigger>rdcr</tabTrigger>

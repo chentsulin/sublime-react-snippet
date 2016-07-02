@@ -10,13 +10,13 @@ class ${1:className} extends Component {
 
   render() {
     return (
-      ${0:<div>{this.props.children}</div>}
+      <div>{this.props.children}</div>
     );
   }
 }
 
 
-export default ${className};
+export default ${1:className};
 
 ]]></content>
   <tabTrigger>r6c</tabTrigger>

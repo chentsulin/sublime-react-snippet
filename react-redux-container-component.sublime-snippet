@@ -2,7 +2,7 @@
 	<content><![CDATA[
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import ${1:className} from './components/${className}';
+import ${1:className} from './components/${1:className}';
 
 
 function mapStateToProps(state) {
@@ -21,7 +21,7 @@ function mapDispatchToProps(dispatch) {
 export default connect(
 	mapStateToProps,
 	mapDispatchToProps
-)(${className});
+)(${1:className});
 
 ]]></content>
 	<tabTrigger>rrcc</tabTrigger>
