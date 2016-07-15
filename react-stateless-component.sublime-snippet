@@ -4,16 +4,16 @@ import React, { PropTypes } from 'react';
 
 
 const ${1:ComponentName} = ({ children }) =>
-	${0:<div>{children}</div>}
+	<div>{children}</div>
 
-${ComponentName}.propTypes = {
+${1:ComponentName}.propTypes = {
   ${2:prop}: PropTypes.func.isRequired
 };
 
-${ComponentName}.defaultProps = {};
+${1:ComponentName}.defaultProps = {};
 
 
-export default ${ComponentName};
+export default ${1:ComponentName};
 
 ]]></content>
 	<tabTrigger>rslc</tabTrigger>

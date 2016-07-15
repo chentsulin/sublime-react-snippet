@@ -32,13 +32,13 @@ const ${1:className} = createClass({
 
 	render() {
 		return (
-			${0:<div>{this.props.children}</div>}
+			<div>{this.props.children}</div>
 		);
 	}
 });
 
 
-export default ${className};
+export default ${1:className};
 
 ]]></content>
 	<tabTrigger>rccl</tabTrigger>

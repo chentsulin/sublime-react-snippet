@@ -14,7 +14,7 @@ export const ${1:actionCreatorName} = function() {
 
 export const ${3:actionCreator2Name} = function() {
   return (dispatch) => {
-    dispatch(${actionCreatorName}());
+    dispatch(${1:actionCreatorName}());
   }
 };
 

@@ -16,7 +16,7 @@ const ${1:reducerName} = function(state = initialState, action) {
   }
 };
 
-export default ${reducerName};
+export default ${1:reducerName};
 
 ]]></content>
   <tabTrigger>rdsr</tabTrigger>
